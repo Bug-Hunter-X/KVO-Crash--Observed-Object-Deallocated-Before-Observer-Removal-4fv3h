@@ -1,0 +1,1 @@
+This repository demonstrates a common Objective-C bug involving Key-Value Observing (KVO) and object deallocation. The bug occurs when an observer isn't removed before the observed object is deallocated, leading to a crash. The solution file showcases how to properly handle KVO observation to prevent crashes. This is a crucial aspect of memory management in Objective-C.
